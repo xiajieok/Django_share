@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>我是标题</title>
+</head>
+<body>
+{% for i in article %}
+    <h1>{{ i.title }}</h1>
+    <p>{{ i.content }}</p>
+{% endfor %}
+</body>
+</html>
